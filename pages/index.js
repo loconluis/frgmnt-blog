@@ -4,34 +4,14 @@ import Nav from '../components/nav'
 
 export default () => (
   <div>
-    <Head title="Home" />
+    <Head title="FRGMNT by Luis Locon :::::" />
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Welcome to Next!</h1>
-      <p className="description">To get started, edit <code>pages/index.js</code> and save to reload.</p>
-
+      <h1 className="title">FRGMT x <a className="hero_anchor" href="https://luislocon.dev" target="_blank">Luis Locon</a></h1>
+      <p className="description">Words are <span>#FRGMNT</span> of us.</p>
       <div className="row">
-        <Link href="https://github.com/zeit/next.js#getting-started">
-          <a className="card">
-            <h3>Getting Started &rarr;</h3>
-            <p>Learn more about Next on Github and in their examples</p>
-          </a>
-        </Link>
-        <Link href="https://open.segment.com/create-next-app">
-          <a className="card">
-            <h3>Examples &rarr;</h3>
-            <p>
-              Find other example boilerplates on the <code>create-next-app</code> site
-            </p>
-          </a>
-        </Link>
-        <Link href="https://github.com/segmentio/create-next-app">
-          <a className="card">
-            <h3>Create Next App &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it</p>
-          </a>
-        </Link>
+        
       </div>
     </div>
 
@@ -39,6 +19,13 @@ export default () => (
       .hero {
         width: 100%;
         color: #333;
+      }
+      .hero_anchor {
+        text-decoration: none;
+        color: #333;
+      }
+      .hero_anchor:hover {
+        text-decoration: underline;
       }
       .title {
         margin: 0;
