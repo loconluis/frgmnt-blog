@@ -15,7 +15,7 @@ export default function HomeScene() {
         </a>
       </h1>
       <h3>
-        Mis palabras son <span>#FRGMNT</span> de lo que soy.
+        Mis palabras son <a className="anchor-fragment">#FRGMNT</a> de lo que soy.
       </h3>
       <br />
       <Link href="/blog">
@@ -39,11 +39,17 @@ export default function HomeScene() {
           padding: $l-size $m-size;
         }
         .hero-button {
+          box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+          text-decoration: none;
           cursor: pointer;
           background: #000000;
           padding: 10px;
           color: #ffffff;
           border-radius: 10px;
+        }
+        .hero-button:hover {
+          box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+          text-decoration: underline;
         }
         .hero__anchor {
           font-weight: 400;
@@ -53,6 +59,9 @@ export default function HomeScene() {
         }
         .hero__anchor:hover {
           text-decoration: underline;
+        }
+        .anchor-fragment {
+          color: #FF0080;
         }
       `}</style>
     </div>
