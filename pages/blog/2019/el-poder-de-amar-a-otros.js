@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import LayoutPost from "../../../components/BlogScene/LayoutOfPost";
 
 export default () => {
   return (
-    <div>
+    <LayoutPost
+      headTitle={'El poder de amar a otros.'}
+      title='El poder de amar a otros'
+      date='2019-12-14'
+    >
       
-    </div>
-  )
-}
+    </LayoutPost>
+  );
+};

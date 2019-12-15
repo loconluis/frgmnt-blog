@@ -3,7 +3,7 @@ import React from 'react'
 export default function FooterOfHomeScene() {
   return (
     <div className="footer-home">
-      Code with <span className="footer-heart">❤️</span> by me! 
+      ¡Hecho con <span className="footer-heart">❤️</span> por mi!
       <style jsx>{`
         .footer-home {
           font-family: 'Montserrat', sans-serif;

@@ -18,6 +18,11 @@ export default function HomeScene() {
         Mis palabras son <a className="anchor-fragment">#FRGMNT</a> de lo que soy.
       </h3>
       <br />
+      <Link href="https://www.instagram.com/frgmntx_/">
+        <a className="hero-button">
+          <i className="fab fa-instagram" /> Instagram 
+        </a>
+      </Link>
       <Link href="/blog">
         <a className="hero-button">
           Ir al blog <i className="fas fa-angle-right" />
@@ -39,6 +44,7 @@ export default function HomeScene() {
           padding: $l-size $m-size;
         }
         .hero-button {
+          margin: 3px;
           box-shadow: 0 5px 10px rgba(0,0,0,0.12);
           text-decoration: none;
           cursor: pointer;
