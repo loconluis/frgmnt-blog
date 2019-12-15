@@ -7,7 +7,7 @@ import '../styles/index.scss'
 
 export default () => (
   <div className="hero">
-    <Head title="FRGMNT by Luis Locon :::::" />
+    <Head title="FRGMNT X Luis Locon" />
     <HomeScene />
     <FooterHome />
   </div>
