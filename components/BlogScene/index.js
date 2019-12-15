@@ -8,12 +8,6 @@ export default function index() {
     <div className="blog-main">
       <TopBar />
       <ListOfPost />
-      <style jsx>{`
-        .blog-main {
-          @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-          font-family: "Montserrat", sans-serif;
-        }
-      `}</style>
     </div>
   );
 }
