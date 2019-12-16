@@ -1,0 +1,44 @@
+.topbar-main-title {
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+  color: $black;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: $font-family;
+}
+.topbar-main {
+  h1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+}
+.blog {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: $gray;
+}
+.slash {
+  padding: 0 5px;
+}
+.topbar-main-home {
+  color: $black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .topbar-main {
+    h1 {
+      margin-left: 15px;
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-left: 5px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+}

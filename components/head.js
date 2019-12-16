@@ -1,9 +1,9 @@
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 
-const defaultDescription = ''
-const defaultOGURL = ''
-const defaultOGImage = ''
+const defaultDescription = 'Blog de Luis Locon, llamado Fragments, creo que cada uno es el fragmento de este mundo, un fragmento que completa el mosaico del mundo y lo vuelve arte.'
+const defaultOGURL = '/static/frgmnt-twt-card.png'
+const defaultOGImage = '/static/frgmnt-twt-card.png'
 
 const Head = (props) => (
   <NextHead>
@@ -15,6 +15,7 @@ const Head = (props) => (
     <link rel="apple-touch-icon" href="/static/touch-icon.png" />
     <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
     <link rel="icon" href="/static/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ''} />
     <meta property="og:description" content={props.description || defaultDescription} />

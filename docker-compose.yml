@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  fragment:
+    build:
+      context: .
+      dockerfile: DockerFile
+    labels:
+      - "traefik.frontend.rule=Host:frgmnt.luislocon.dev"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    ports:
+      - "3334:3000"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
