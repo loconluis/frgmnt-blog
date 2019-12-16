@@ -1,9 +1,9 @@
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 
-const defaultDescription = ''
-const defaultOGURL = ''
-const defaultOGImage = ''
+const defaultDescription = 'Blog de Luis Locon, llamado Fragments, creo que cada uno es el fragmento de este mundo, un fragmento que completa el mosaico del mundo y lo vuelve arte.'
+const defaultOGURL = '/static/frgmnt-twt-card.png'
+const defaultOGImage = '/static/frgmnt-twt-card.png'
 
 const Head = (props) => (
   <NextHead>
