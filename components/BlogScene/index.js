@@ -7,6 +7,9 @@ export default function index() {
   return (
     <div className="blog-main">
       <TopBar />
+      <div className="topbar-entry">
+        <h2>Entradas</h2>
+      </div>
       <ListOfPost />
     </div>
   );

@@ -30,6 +30,14 @@
   cursor: pointer;
 }
 
+.topbar-entry {
+  margin-left: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 @media (max-width: 600px) {
   .topbar-main {
     h1 {
@@ -40,5 +48,12 @@
       font-weight: bold;
       font-size: 30px;
     }
+  }
+  .topbar-entry {
+    margin-left: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 10px;
   }
 }

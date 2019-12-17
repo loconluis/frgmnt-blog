@@ -10,6 +10,7 @@ export default function index() {
       {post.map(el => {
         return (
           <div key={el.id} className="post">
+            <br />
             <p className="post-date">
               {moment(el.createdAt).format("MMM DD, YYYY")}
             </p>
